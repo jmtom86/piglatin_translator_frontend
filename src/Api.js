@@ -1,5 +1,5 @@
-// const API_BASE_ADDRESS = 'https://thawing-tundra-47064.herokuapp.com';
-const API_BASE_ADDRESS = process.env.API_ADDRESS;
+// const API_BASE_ADDRESS = 'http://localhost:3000';
+const API_BASE_ADDRESS = process.env.REACT_APP_API_ADDRESS;
 
 export default class PigLatinApi {
 
